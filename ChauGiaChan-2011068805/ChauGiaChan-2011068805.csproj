@@ -188,6 +188,22 @@
     <Compile Include="Migrations\202303100623395_Khoi tao du lieu cho bang Categories.designer.cs">
       <DependentUpon>202303100623395_Khoi tao du lieu cho bang Categories.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202303120836175_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202303120836175_AddNameColumnToApplicationUser.designer.cs">
+      <DependentUpon>202303120836175_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202303120840191_AddNameColumnToApplicationUser1.cs" />
+    <Compile Include="Migrations\202303120840191_AddNameColumnToApplicationUser1.designer.cs">
+      <DependentUpon>202303120840191_AddNameColumnToApplicationUser1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202303120841280_AddChauGiaChanColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202303120841280_AddChauGiaChanColumnToApplicationUser.designer.cs">
+      <DependentUpon>202303120841280_AddChauGiaChanColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202303160644364_AddNameColumnToApplicationUser2.cs" />
+    <Compile Include="Migrations\202303160644364_AddNameColumnToApplicationUser2.designer.cs">
+      <DependentUpon>202303160644364_AddNameColumnToApplicationUser2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -198,6 +214,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CourseViewModel.cs" />
+    <Compile Include="ViewModels\FutureDate.cs" />
+    <Compile Include="ViewModels\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -282,6 +300,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202303100623395_Khoi tao du lieu cho bang Categories.resx">
       <DependentUpon>202303100623395_Khoi tao du lieu cho bang Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303120836175_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>202303120836175_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303120840191_AddNameColumnToApplicationUser1.resx">
+      <DependentUpon>202303120840191_AddNameColumnToApplicationUser1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303120841280_AddChauGiaChanColumnToApplicationUser.resx">
+      <DependentUpon>202303120841280_AddChauGiaChanColumnToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303160644364_AddNameColumnToApplicationUser2.resx">
+      <DependentUpon>202303160644364_AddNameColumnToApplicationUser2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
