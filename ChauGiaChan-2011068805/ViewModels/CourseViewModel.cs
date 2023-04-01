@@ -1,9 +1,9 @@
 ﻿using ChauGiaChan_2011068805.Models;
-using Microsoft.Build.Framework;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Web;
+using System.Web;   
 
 namespace ChauGiaChan_2011068805.ViewModels
 {

@@ -1,4 +1,5 @@
 ﻿using ChauGiaChan_2011068805.Models;
+using ChauGiaChan_2011068805.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -22,7 +23,13 @@ namespace ChauGiaChan_2011068805.Controllers
                 .Include(c => c.Lecturer)
                 .Include(c => c.Category)
                 .Where(c => c.DateTime > DateTime.Now);
-            return View(upcommingCourses);  
+
+            var viewModel = new CoursesViewModel
+            {
+                UpcommingCourses = upcommingCourses,
+                ShowAction = User.Identity.IsAuthenticated
+            };
+            return View(viewModel);  
         }
 
         //public ActionResult Index()
